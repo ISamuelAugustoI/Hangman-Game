@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Os Feras | Jogo da Forca</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <section class=section>
+        <div class="background1"></div>
+        <p class="logo"><img src="./Imagens/logo-fire.png" alt="" class="fire"> OS FERAS</p>
+        <p id="title" class="title">JOGO DA FORCA</p>
+        <div class="elements">
+            <div class="img-forca">
+                <img src="./Imagens/forca.png" id="forca" alt="">
+                <div class="themes">
+                    <div class="theme-1" id="themes-1">
+                        <div class="theme1" id="theme1" onclick="theme=1"><img src="./Imagens/animais.png" alt=""></div>
+                        <div class="theme2" id="theme2" onclick="theme=2"><img src="./Imagens/fruits.png" alt=""></div>
+                    </div>
+                    <div class="theme-2" id="themes-2">
+                        <div class="theme3" id="theme3" onclick="theme=3"><img src="./Imagens/paises.png" alt=""></div>
+                        <div class="theme4" id="theme4" onclick="theme=4"><img src="./Imagens/pessoas.png" alt=""></div>
+                    </div>
+                    <div id="word-container">
+                        <span id="word-display" style="font-size: 40px; font-family: Pixellari;"></span>
+                    </div>            
+                </div>
+            </div> 
+        </div>
+        <div id="attempts-container">
+            <p id="attempts">Clique para iniciar!</p>
+        </div>  
+        <div class="start" id="start"><img src="./Imagens/jogo-forca-b.png" alt=""></div>
+        <p style="text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 16px; margin-top: 5px;"><b>Gabriel Silva, João Vinícius e Samuel</b></p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
